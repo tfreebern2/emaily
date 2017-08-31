@@ -29,7 +29,7 @@ module.exports = app => {
 
 			res.send(user);
 		} catch (err) {
-			res.statu(422).send(err);
+			res.status(422).send(err);
 		}
 	});
 };
